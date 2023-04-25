@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0424112897de2110a284bf1e6253afb5" extends="task" label="Declaration Task" max_length="40" name="x_1041332_easy_fli_declaration_task" type="collection">
+        <element attributes="encode_utf8=false" label="Declaration Request" max_length="32" name="declaration_request" reference="x_1041332_easy_fli_declaration_request" type="reference"/>
+    </element>
+</database>

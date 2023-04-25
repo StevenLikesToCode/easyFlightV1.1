@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="02556d1897522110a284bf1e6253af1d" extends="task" label="Declaration Request" max_length="40" name="x_1041332_easy_fli_declaration_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="More than 2250ml of alcoholic beverages or 25 g tobacco products" mandatory="true" max_length="40" name="alcoholic_tobacco_products" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pet food, eggs, biologicals, specimens, birds, fish, insects, shells" mandatory="true" max_length="40" name="animal_products" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Australian Citizen" mandatory="true" max_length="40" name="australian_citizen" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="AUD$10,000 or more in Australian or foreign currency equivalent" mandatory="true" max_length="40" name="cash" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have criminal convictions" mandatory="true" max_length="40" name="criminal_convictions" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Declaration Date" mandatory="true" max_length="40" name="declaration_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Grains, seeds, bulbs, straw, nuts, plants, traditional medicines" mandatory="true" max_length="40" name="dried_food" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Flight Number" mandatory="true" max_length="40" name="flight_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Meat, poultry, fish, seafood, eggs, dairy, fruit, vegetables" mandatory="true" max_length="40" name="fresh_food" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Goods for business/commercial use" mandatory="true" max_length="40" name="goods_for_commercial_user" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Goods obtained overseas or duty/tax free with combined price over AUD$900" mandatory="true" max_length="40" name="goods_obtained_overseas" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have Tuberculosis" mandatory="true" max_length="40" name="have_tuberculosis" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Medicines, Steroids, pornography, firearms, weapons, illicit drugs" mandatory="true" max_length="40" name="illegal_products" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nationality as in the passport" mandatory="true" max_length="40" name="nationality" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="The country where this flight/ship boarded from" mandatory="true" max_length="40" name="origin_flight_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Passport Number" mandatory="true" max_length="40" name="passport_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Permanent Resident" mandatory="true" max_length="40" name="permanent_resident" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Soil items with soil attached or used in freshwater areas" mandatory="true" max_length="40" name="soil_items" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Temporary Resident" mandatory="true" max_length="40" name="temporary_resident" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+    </element>
+</database>
